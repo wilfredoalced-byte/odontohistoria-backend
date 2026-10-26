@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "pacienteId": 1,
+    "nombre": "Limpieza dental",
+    "fecha": "2026-05-15",
+    "estado": "Realizado"
+  },
+  {
+    "id": 2,
+    "pacienteId": 1,
+    "nombre": "Resina en pieza 26",
+    "fecha": "2026-03-03",
+    "estado": "Realizado"
+  },
+  {
+    "id": 3,
+    "pacienteId": 1,
+    "nombre": "Revisión general",
+    "fecha": "2026-01-10",
+    "estado": "Realizado"
+  }
+]

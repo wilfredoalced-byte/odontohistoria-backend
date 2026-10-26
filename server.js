@@ -94,6 +94,8 @@ app.delete('/pacientes/:id', (req, res) => {
   res.json(eliminado);
 });
 
+require('./tratamientos')(app, { leerArchivo, guardarArchivo, siguienteId });
+
 app.listen(3000, () => {
   console.log('Backend real corriendo en http://localhost:3000');
 });
