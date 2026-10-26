@@ -96,6 +96,8 @@ app.delete('/pacientes/:id', (req, res) => {
 
 require('./tratamientos')(app, { leerArchivo, guardarArchivo, siguienteId });
 
+require('./odontograma')(app, { leerArchivo, guardarArchivo, siguienteId });
+
 app.listen(3000, () => {
   console.log('Backend real corriendo en http://localhost:3000');
 });
