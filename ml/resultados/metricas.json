@@ -1,0 +1,7 @@
+{
+  "imagenes_prueba": 921,
+  "exactitud": 0.8773,
+  "precision": 0.8098,
+  "sensibilidad": 0.8381,
+  "f1": 0.8237
+}

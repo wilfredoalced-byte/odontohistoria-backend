@@ -4,3 +4,6 @@ node_modules/
 ml/data/
 ml/Dataset.zip
 ml/*.zip
+
+# Modelo Keras pesado (solo se sube el .tflite)
+ml/resultados/*.keras
