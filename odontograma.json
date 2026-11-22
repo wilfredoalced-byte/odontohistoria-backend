@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "pacienteId": 1,
+    "pieza": 16,
+    "estado": "Caries"
+  },
+  {
+    "id": 2,
+    "pacienteId": 1,
+    "pieza": 13,
+    "estado": "Tratado"
+  }
+]
