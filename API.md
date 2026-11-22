@@ -55,3 +55,15 @@ Campos: `pacienteId`, `nombre`, `fecha`, `estado` (`Pendiente`, `En curso` o `Re
 
 La pieza usa numeración FDI (11 a 48). Estados: `Sano`, `Caries` o `Tratado`.
 Las piezas sin registro se consideran sanas.
+
+## Consentimientos
+
+| Método | Ruta | Descripción |
+|---|---|---|
+| GET | `/consentimientos/textos` | Textos vigentes de cada consentimiento y su versión |
+| GET | `/pacientes/:id/consentimientos` | Estado de cada consentimiento del paciente |
+| PUT | `/pacientes/:id/consentimientos/:tipo` | Acepta o retira un consentimiento: `{ "aceptado": true }` |
+
+Tipos: `tratamiento` (historia clínica digital) e `imagenes_ia` (fotos intraorales con el asistente de IA).
+Cada registro guarda la fecha del último cambio y la versión del texto aceptado. Un tipo sin registro figura como no aceptado.
+Los textos actuales son un borrador pendiente de revisión legal.
