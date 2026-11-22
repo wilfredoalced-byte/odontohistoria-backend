@@ -1,1 +1,6 @@
 node_modules/
+
+# Machine Learning: datos pesados (no se suben a GitHub)
+ml/data/
+ml/Dataset.zip
+ml/*.zip
