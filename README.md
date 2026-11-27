@@ -27,7 +27,7 @@ Backend del proyecto **OdontoHistoria IA** para la clínica dental **Fassiara**.
 
 ## Cómo abrirlo y ejecutarlo (paso a paso)
 
-**Requisitos:** tener instalados [Node.js](https://nodejs.org) (versión 18 o superior; se probó con la 22) y Git.
+**Requisitos:** tener instalados [Node.js](https://nodejs.org) (versión 18 o superior para el backend; el panel web pide 20.19 o superior; se probó con la 22) y Git.
 
 1. Descargar el proyecto:
    ```bash
